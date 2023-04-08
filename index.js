@@ -17,7 +17,7 @@ async function genrateScript() {
     } catch (error) {
         console.log(error)
     }
-}
+};
 
 genrateScript();
 module.exports = { genrateScript }
